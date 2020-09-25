@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/question" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mensaje_help"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mensaje_help_2"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/separadorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/crear_encuesta"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/para_crear_una_encuesta_necesitas_dar_click_en_el_bot_n_circular_que_cuenta_con_el_icono_de_m_s_despu_s_tendr_s_que_llenar_el_peque_o_formulario_donde_pondr_s_el_nombre_descripci_n_y_pregunta_de_la_encuesta_aparte_podr_s_seleccionar_el_tipo_de_iconos_para_tu_encuesta"
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/floppy" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/separadorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/capturar_votos"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/solo_necesitas_ir_al_men_y_seleccionar_la_opci_n_de_encuestas_entonces_dentro_del_listado_seleccionar_s_la_encuesta_a_la_que_quieras_sumarle_votos_ya_estando_dentro_de_la_encuesta_da_click_en_el_bot_n_de_capturar_votos_para_salir_de_esta_pantalla_presiona_el_bot_n_de_atr_s_cuatro_veces"
+                    android:textAlignment="textEnd" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/separadorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_resultados"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/para_consultar_los_resultados_debes_ir_al_men_y_buscar_la_encuesta_que_quieras_consultar_y_dar_click_en_el_bot_n_de_ver_resultados_en_caso_de_que_la_app_no_te_permita_ver_los_votos_ser_por_que_aun_no_tiene_votos_registrados" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/clip" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/separadorGray"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/publicar_resultados"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/share" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/si_ya_tienes_tus_votos_capturados_y_quieres_publicar_tu_encuesta_para_compartir_tus_resultados_entonces_necesitar_irte_a_la_secci_n_de_resultados_de_tu_encuesta_y_dar_click_en_el_bot_n_de_generar_reporte_lo_que_te_entregar_un_id_de_reporte_para_que_descargues_el_reporte_desde_la_pagina_web_oficial_de_ratingsurvey"
+                    android:textAlignment="textEnd" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/separadorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/obtener_reporte"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/en_caso_de_que_ya_publicaste_tus_resultados_entonces_ya_puedes_obtener_tu_reporte_para_esto_tienes_dos_formas_de_hacerlo_una_desde_la_vista_de_tu_encuesta_en_la_parte_donde_te_muestra_el_id_de_b_squeda_la_segunda_forma_es_accediendo_desde_cualquier_navegador_web_al_sitio_oficial_de_ratingsurvey_y_buscar_tu_encuesta_mediante_el_id_de_reporte" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/download" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/separadorGray" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

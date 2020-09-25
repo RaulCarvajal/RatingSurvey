@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">RatingSurvey</string>
+    <string name="title_activity_home">home</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Configuración</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Rating Survey</string>
+    <string name="nav_header_subtitle">raul.crvjl@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Encuestas</string>
+    <string name="menu_slideshow">Ayuda</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Cerrar sesión</string>
+    <string name="menu_send">Ver y editar</string>
+
+    <string name="menu_encuestas">Encuestas</string>
+    <string name="menu_micuenta">Mi cuenta</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_acerca">Acerca de</string>
+    <string name="menu_cerrar">Cerrar sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_inicio">Inicio</string>
+
+
+    <!--PLACE HOLDERS AND STRINGS FOR NEW SURVER-->
+    <string name="nueva_encuesta">CREAR ENCUESTA</string>
+    <string name="hint_nombre">Nombre encuesta</string>
+    <string name="hint_descripcion">Descripción breve</string>
+    <string name="hint_pregunta">Pregunta de la encuesta</string>
+    <string name="hint_tipo">Tipo de iconos</string>
+    <string name="hint_faces">Caras (Felíz a triste)</string>
+    <string name="hint_start">Estrellas (1 a 4)</string>
+    <string name="hint_heart">Corazones (1 a 4)</string>
+    <string name="hint_guardar">CREAR</string>
+
+    <!--DASHBOARD-->
+    <string name="encuestas_realizadas">Total encuestas guardadas</string>
+    <string name="votos_encuestas">Total de votos guardados</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--EDITAR-->
+    <string name="title_activity_editar">Editar Encuesta</string>
+    <string name="apellido_s">Apellido/s</string>
+    <string name="correo">Correo</string>
+    <string name="pin">PIN</string>
+    <string name="nombre_s">Nombre/s</string>
+    <string name="entrar">Entrar</string>
+    <string name="soy_nuevo">Soy nuevo</string>
+    <string name="cargando_tu_informaci_n">Cargando tu información</string>
+    <string name="resultados">Resultados</string>
+    <string name="_100">/100</string>
+    <string name="promedio_general_porcentual">Promedio general porcentual</string>
+    <string name="votos_de_100_puntos">Votos de 100 puntos</string>
+    <string name="votos_de_75_puntos">Votos de 75 puntos</string>
+    <string name="votos_de_50_puntos">Votos de 50 puntos</string>
+    <string name="votos_de_25_puntos">Votos de 25 puntos</string>
+    <string name="votos_en_total">Votos en total</string>
+    <string name="nombre_de_encuesta">Nombre de encuesta</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="pregunta_o_mensaje_de_encuesta">Pregunta o mensaje de encuesta</string>
+    <string name="tipo_de_icono">Tipo de icono</string>
+    <string name="fecha_de_creaci_n">Fecha de creación</string>
+    <string name="fecha_y_hora_de_actualizaci_n">Fecha y hora de actualización</string>
+    <string name="fecha_y_hora_de_ultimo_voto">Fecha y hora de ultimo voto</string>
+    <string name="promedio_actual">Promedio actual</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="promedio_acumulado">Promedio acumulado</string>
+    <string name="dashboard">Dashboard</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_captura_votos_fs">CapturaVotosFS</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="detalles_de_encuesta">Detalles de encuesta</string>
+    <string name="aun_no_se_registran">Aún no se registran</string>
+    <string name="faces">Caras</string>
+    <string name="star">Estrellas</string>
+    <string name="heart">Corazones</string>
+    <string name="perfil">Perfil</string>
+    <string name="hint_editar">Actualizar</string>
+    <string name="toast_editar">Actualizado correctamente</string>
+    <string name="toast_guardar">Guardado correctamente</string>
+    <string name="toast_error">Ocurrio un error. Intente más tarde.</string>
+    <string name="toast_campo">El campo </string>
+    <string name="toast_vacio"> no puede estar vácio.</string>
+    <string name="salir">Salir.</string>
+    <string name="salir_pregunta">Desea salir y guardar los votos realizados?</string>
+    <string name="toast_atras"> Presione el botón Atras una vez más</string>
+    <string name="snack_gracias"> - Gracias, su voto es muy importante para nosotros.</string>
+    <string name="titulo_perfil">Perfil</string>
+    <string name="toast_correo_valido">Digite un correo electrónico válido</string>
+    <string name="toast_nombres">Nombres</string>
+    <string name="toast_apellidos">Apellidos</string>
+    <string name="toast_pin">PIN</string>
+    <string name="toast_pin_incorrecto">Tu PIN es incorrecto</string>
+    <string name="toast_correo_no_registrado">Tu correo no esta registrado</string>
+    <string name="toast_el_correo">El correo </string>
+    <string name="toast_correo_ya_registrado"> ya se encuentra registrado en la aplicación.</string>
+    <string name="mis_datos">Mi información.</string>
+    <string name="lista_v_cia">Lista vácia</string>
+    <string name="monedas_1_a_4">Monedas (1 a 4)</string>
+    <string name="coins">Monedas</string>
+    <string name="mensaje_sin_votos">Resultados no disponibles, aún no se registran votos.</string>
+    <string name="mensaje_salir">Para salir, presione el boton de atrás cuatro veces</string>
+    <string name="cero">Cero</string>
+    <string name="ltima_encuesta_guardada">Última encuesta guardada</string>
+    <string name="ver_encuesta"><![CDATA[Ver encuesta >]]></string>
+    <string name="ltima_encuesta_votada">Última encuesta votada</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="mensaje_help">¡Hola!, Esta es RatingSurvey, una aplicación simple de utilizar para que generes tus encuestas de calidad de la manera más sencilla y simple.</string>
+    <string name="generar_reporte">Generar reporte</string>
+    <string name="id_de_reporte">Id de reporte</string>
+    <string name="no_reportes">Sin reporte generado</string>
+    <string name="actualizar_reporte">Actualizar reporte</string>
+    <string name="exito">¡Éxito!</string>
+    <string name="alert_report1">¡Reporte exitosamente creado!. Su reporte tiene el id</string>
+    <string name="alert_report2">Con este id podrá consultar y compartir sus resultados con otras personas mediante la página oficial de ratingsurvey.com</string>
+    <string name="mensaje_help_2">En esta aplicación podrás realizar tus encuestas de calidad de manera personalizada, ya que por ejemplo, podrás elegir qué tipo de iconos querrás utilizar en tu captura de datos, entre otras características que seguro te van a gustar.</string>
+    <string name="compartir">Compartir</string>
+    <string name="crear_encuesta">Crear encuesta</string>
+    <string name="para_crear_una_encuesta_necesitas_dar_click_en_el_bot_n_circular_que_cuenta_con_el_icono_de_m_s_despu_s_tendr_s_que_llenar_el_peque_o_formulario_donde_pondr_s_el_nombre_descripci_n_y_pregunta_de_la_encuesta_aparte_podr_s_seleccionar_el_tipo_de_iconos_para_tu_encuesta">Para crear una encuesta necesitas dar click en el botón circular, que cuenta con el icono de más, después tendrás que llenar el pequeño formulario, donde pondrás el nombre, descripción y pregunta de la encuesta, aparte podrás seleccionar el tipo de iconos para tu encuesta.</string>
+    <string name="ver_resultados">Ver resultados</string>
+    <string name="para_consultar_los_resultados_debes_ir_al_men_y_buscar_la_encuesta_que_quieras_consultar_y_dar_click_en_el_bot_n_de_ver_resultados_en_caso_de_que_la_app_no_te_permita_ver_los_votos_ser_por_que_aun_no_tiene_votos_registrados">Para consultar los resultados, debes ir al menú y buscar la encuesta que quieras consultar y dar click en el botón de ver resultados, en caso de que la app no te permita ver los votos, será por que aun no tiene votos registrados.</string>
+    <string name="publicar_resultados">Publicar resultados</string>
+    <string name="si_ya_tienes_tus_votos_capturados_y_quieres_publicar_tu_encuesta_para_compartir_tus_resultados_entonces_necesitar_irte_a_la_secci_n_de_resultados_de_tu_encuesta_y_dar_click_en_el_bot_n_de_generar_reporte_lo_que_te_entregar_un_id_de_reporte_para_que_descargues_el_reporte_desde_la_pagina_web_oficial_de_ratingsurvey">Si ya tienes tus votos capturados y quieres publicar tu encuesta para compartir tus resultados, entonces necesitar irte a la sección de resultados de tu encuesta y dar click en el botón de generar reporte, lo que te entregará un ID de reporte para que descargues el reporte desde la pagina web oficial de RatingSurvey.</string>
+    <string name="obtener_reporte">Obtener reporte</string>
+    <string name="en_caso_de_que_ya_publicaste_tus_resultados_entonces_ya_puedes_obtener_tu_reporte_para_esto_tienes_dos_formas_de_hacerlo_una_desde_la_vista_de_tu_encuesta_en_la_parte_donde_te_muestra_el_id_de_b_squeda_la_segunda_forma_es_accediendo_desde_cualquier_navegador_web_al_sitio_oficial_de_ratingsurvey_y_buscar_tu_encuesta_mediante_el_id_de_reporte">En caso de que ya publicaste tus resultados, entonces ya puedes obtener tu reporte, para esto tienes dos formas de hacerlo, una desde la vista de tu encuesta, en la parte donde te muestra el ID de búsqueda. La segunda forma es accediendo desde cualquier navegador web al sitio oficial de RatingSurvey y buscar tu encuesta mediante el ID de reporte.</string>
+    <string name="solo_necesitas_ir_al_men_y_seleccionar_la_opci_n_de_encuestas_entonces_dentro_del_listado_seleccionar_s_la_encuesta_a_la_que_quieras_sumarle_votos_ya_estando_dentro_de_la_encuesta_da_click_en_el_bot_n_de_capturar_votos_para_salir_de_esta_pantalla_presiona_el_bot_n_de_atr_s_cuatro_veces">Solo necesitas ir al menú y seleccionar la opción de encuestas, entonces dentro del listado, seleccionarás la encuesta a la que quieras sumarle votos, ya estando dentro de la encuesta da click en el botón de capturar votos. Para salir de esta pantalla, presiona el botón de atrás cuatro veces.</string>
+    <string name="capturar_votos">Capturar votos</string>
+
+</resources>
